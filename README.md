@@ -1,4 +1,4 @@
-# Digital-Business-Developer-Learning
+# Digital Business Developer Learning
 
 Este es un plan de estudios para desarrollar proyectos de negocios digitales en AWS, enfocado en aplicaciones web, móviles y para Smart TV. El objetivo es proporcionar una ruta de aprendizaje estructurada que abarque desde los fundamentos de AWS hasta la implementación completa de proyectos.
 
@@ -15,7 +15,13 @@ El plan de estudios está dividido en los siguientes módulos:
 ## Cómo Empezar
 
 1. Clona este repositorio:
-   ```sh
-   git clone https://github.com/tu-usuario/Digital-Business-Developer-Learning.git
-   cd Digital-Business-Developer-Learning
-# Digital-Busineess-Developer-Learning
+    ```sh
+    git clone https://github.com/mdasuaje/Digital-Business-Developer-Learning.git
+    cd Digital-Business-Developer-Learning
+    ```
+
+2. Sigue las instrucciones en cada módulo para avanzar en el plan de estudios.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request para contribuir a este proyecto.
