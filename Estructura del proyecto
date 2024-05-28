@@ -1,0 +1,58 @@
+Digital-Business-Developer-Learning/
+│
+├── README.md
+├── .gitignore
+├── Módulo1_Introducción_AWS/
+│   ├── README.md
+│   ├── notebooks/
+│   │   ├── Introducción_AWS.ipynb
+│   │   ├── AWS_CLI_y_SDKs.ipynb
+│   └── ejercicios/
+│       ├── ejercicio_1.md
+│       ├── ejercicio_2.md
+│
+├── Módulo2_Fundamentos_CS/
+│   ├── README.md
+│   ├── notebooks/
+│   │   ├── Estructuras_Datos.ipynb
+│   │   ├── Algoritmos.ipynb
+│   └── ejercicios/
+│       ├── ejercicio_1.md
+│       ├── ejercicio_2.md
+│
+├── Módulo3_Desarrollo_Aplicaciones_AWS/
+│   ├── README.md
+│   ├── notebooks/
+│   │   ├── Desarrollo_Web.ipynb
+│   │   ├── Desarrollo_Móvil.ipynb
+│   └── ejercicios/
+│       ├── ejercicio_1.md
+│       ├── ejercicio_2.md
+│
+├── Módulo4_ML_DS/
+│   ├── README.md
+│   ├── notebooks/
+│   │   ├── Introducción_ML.ipynb
+│   │   ├── Data_Science.ipynb
+│   └── ejercicios/
+│       ├── ejercicio_1.md
+│       ├── ejercicio_2.md
+│
+├── Módulo5_Proyecto_Completo/
+│   ├── README.md
+│   ├── notebooks/
+│   │   ├── Diseño_Planificación.ipynb
+│   │   ├── Desarrollo_Backend.ipynb
+│   │   ├── Desarrollo_Frontend.ipynb
+│   └── ejercicios/
+│       ├── ejercicio_1.md
+│       ├── ejercicio_2.md
+│
+└── Módulo6_Implementación_AWS/
+    ├── README.md
+    ├── notebooks/
+    │   ├── Despliegue_AWS.ipynb
+    │   ├── Monitoreo_Optimización.ipynb
+    └── ejercicios/
+        ├── ejercicio_1.md
+        ├── ejercicio_2.md
