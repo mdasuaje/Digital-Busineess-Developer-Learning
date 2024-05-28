@@ -1,0 +1,60 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Módulo 1: Introducción a AWS\n",
+        "\n",
+        "Este notebook cubre los fundamentos de Amazon Web Services (AWS)."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {},
+      "outputs": [],
+      "source": [
+        "# Importar el SDK de AWS para Python (Boto3)\n",
+        "import boto3\n",
+        "\n",
+        "# Crear una instancia del cliente S3\n",
+        "s3 = boto3.client('s3')\n",
+        "\n",
+        "# Crear un bucket en S3\n",
+        "response = s3.create_bucket(Bucket='mi-bucket-de-ejemplo')\n",
+        "print(response)\n",
+        "\n",
+        "# Subir un archivo a S3\n",
+        "with open('mi_archivo.txt', 'rb') as data:\n",
+        "    s3.upload_fileobj(data, 'mi-bucket-de-ejemplo', 'mi_archivo.txt')\n",
+        "\n",
+        "# Listar los objetos en el bucket\n",
+        "response = s3.list_objects_v2(Bucket='mi-bucket-de-ejemplo')\n",
+        "for obj in response.get('Contents', []):\n",
+        "    print(obj['Key'])"
+      ]
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "ipython",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8.5"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 4
+}
