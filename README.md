@@ -1,5 +1,4 @@
 # Digital-Business-Developer-Learning
-# Digital Business Developer Learning
 
 Este es un plan de estudios para desarrollar proyectos de negocios digitales en AWS, enfocado en aplicaciones web, móviles y para Smart TV. El objetivo es proporcionar una ruta de aprendizaje estructurada que abarque desde los fundamentos de AWS hasta la implementación completa de proyectos.
 
